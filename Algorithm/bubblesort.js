@@ -5,28 +5,22 @@
     
  */
 
-const arr = [3,1,32,4,2,5,9,0]
+const arr =  [3,1,32,4,2,5,9,0];
 
-function bubblesort(arr){
-    let first;
-    let second;
-    for(let i = 0; i < arr.length; i++){
-        for(let j = 0; j <= arr.length - 2; j++){
-            first = j
-            second = j+1
+const bubbleSort = () => {
+  for (let i = 0; i < arr.length; i++) {
+    for(let j = 0; j < arr.length - 1; j++){
+        let f = j
+        let s = j+1
 
-            if(arr[first] > arr[second]){
-                let tmp = arr[first]
-                arr[first] = arr[second]
-                arr[second] = tmp
-            }
-
-            first = second
-            second = first + 1
+        if(arr[f] > arr[s]){
+            let tmp = arr[f]
+            arr[f] = arr[s]
+            arr[s] = tmp
         }
     }
-}
+  }
+};
 
-bubblesort(arr)
-
-console.log(arr)
+bubbleSort(arr);
+console.log(arr);
