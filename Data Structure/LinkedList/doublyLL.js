@@ -4,7 +4,7 @@ class DoublyLLNodes {
   next;
 
   constructor(data) {
-    this.data = data;
+    this.data = data;n
     this.prev = null;
     this.next = null;
   }
