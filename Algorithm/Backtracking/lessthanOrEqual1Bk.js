@@ -22,3 +22,8 @@ function ls(nums, k) {
 }
 
 console.log(ls([1, 2, 3], 2));
+
+for (let i = 0; i < array.length; i++) {
+    const element = array[i];
+    
+}

@@ -22,6 +22,6 @@ function splitArrayRecursively(arr){
 
 }
 
-console.log(splitArrayRecursively([6,3,4,1,5,2,7,0]))
+// console.log(splitArrayRecursively([6,3,4,1,5,2,7,0]))
 
-// console.log([6,3,4,1,5,2,7,0].slice(0,4))
+console.log([1,2,3,4,5,6,7,8,9].slice(5, ));
